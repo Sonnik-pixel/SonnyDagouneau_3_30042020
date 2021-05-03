@@ -1,13 +1,22 @@
+/* Utils */
+/* Vendors */
 /* Base */
+/* Reset */
+* {
+  font-family: "Roboto";
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+footer h2 {
+  font-family: "Shrikhand";
+  color: #9356DC;
+}
+
 /* Components */
 /* Layout */
 /* Pages */
-.red {
-  color: blue;
-}
-
 /* Themes */
-/* Utils */
-/* Vendors */
 
 /*# sourceMappingURL=style.css.map */

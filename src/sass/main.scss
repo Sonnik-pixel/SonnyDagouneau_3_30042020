@@ -1,7 +1,18 @@
+/* Utils */
+
+@import "./utils/variables";
+@import "./utils/functions";
+@import "./utils/mixins";
+@import "./utils/placeholders";
+
+/* Vendors */
+
+
+
 /* Base */
 
 @import "./base/animations";
-
+@import "./base/base";
 
 /* Components */
 
@@ -19,11 +30,3 @@
 @import "./pages/contact";
 
 /* Themes */
-
-
-
-/* Utils */
-
-
-
-/* Vendors */
