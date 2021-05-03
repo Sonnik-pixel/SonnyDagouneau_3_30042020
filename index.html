@@ -1,19 +1,52 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ohmyfood</title>
-    <link rel="stylesheet" href="./src/styles/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Shrikhand&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Shrikhand&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <title>Ohmyfood</title>
 </head>
+
 <body>
     <header>
         <img src="./src/img/logo/ohmyfood.png" alt="Logo ohmyfood">
-        <p>Test Police</p>
+        <div>
+            <i class="fas fa-map-marker-alt"></i>
+            <input type="text" id="maRecherche" name="q" placeholder="Paris, Belleville"
+                aria-label="Rechercher des restaurants sur le site">
+        </div>
     </header>
+    <main>
+        <section class="description"></section>
+        <section class="functioning"></section>
+        <h1>Fonctionnement</h1>
+        <ol>
+            <li><i class="fas fa-mobile-alt"></i>Choisissez un restaurant</li>
+            <li><i class="fas fa-list-ul"></i>Composez votre menu</li>
+            <li><i class="fas fa-store"></i>Dégustez au restaurant</li>
+        </ol>
+        <section class="restaurants"></section>
+        <h1>Restaurants</h1>
+        <figure></figure>
+        <figure></figure>
+        <figure></figure>
+        <figure></figure>
+    </main>
+    <footer>
+        <h2>ohmyfood</h2>
+        <ul>
+            <li><a href="#"><i class="fas fa-utensils"></i>Proposer un restaurant</a></li>
+            <li><a href="#"><i class="fas fa-hands-helping"></i>Devenir partenaire</a></li>
+            <li><a href="#">Mentions légales</a></li>
+            <li><a href="mailto:contact@ohmyfood.com">Contact</a></li>
+        </ul>
+    </footer>
 </body>
+
 </html>
