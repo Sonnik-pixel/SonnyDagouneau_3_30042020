@@ -1,0 +1,35 @@
+.footer {
+  background-color: #353535;
+  color: white;
+  padding: 1.5rem 1.5rem;
+  height: 15rem;
+
+  &__title {
+    font-family: "Shrikhand";
+    font-weight: lighter;
+    font-size: 1.3rem;
+    padding-bottom: 1rem;
+  }
+
+  &__column {
+
+    &__link {
+      color: white;
+      font-size: 1.1rem;
+    }
+
+    li {
+      padding-bottom: 0.6rem;
+    }
+  }
+
+  .fa-utensils {
+    padding-right: 1rem;
+  }
+
+  .fa-hands-helping {
+    font-size: 0.7rem;
+    padding-right: 1rem;
+  }
+}
+

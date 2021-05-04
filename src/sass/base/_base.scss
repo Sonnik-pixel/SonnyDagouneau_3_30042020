@@ -1,14 +1,18 @@
 /* Reset */
 * {
-  font-family: "Roboto";
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   text-decoration: none;
+  list-style: none;
 }
 
-footer {
-  h2 {
-    font-family: "Shrikhand";
-    color: $colour-primary;
-  }
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+img {
+ width: 90%;
 }

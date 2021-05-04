@@ -1,22 +1,53 @@
 /* Utils */
-/* Vendors */
 /* Base */
 /* Reset */
 * {
-  font-family: "Roboto";
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   text-decoration: none;
+  list-style: none;
 }
 
-footer h2 {
-  font-family: "Shrikhand";
-  color: #9356DC;
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+img {
+  width: 90%;
 }
 
 /* Components */
 /* Layout */
+.footer {
+  background-color: #353535;
+  color: white;
+  padding: 1.5rem 1.5rem;
+  height: 15rem;
+}
+.footer__title {
+  font-family: "Shrikhand";
+  font-weight: lighter;
+  font-size: 1.3rem;
+  padding-bottom: 1rem;
+}
+.footer__column__link {
+  color: white;
+  font-size: 1.1rem;
+}
+.footer__column li {
+  padding-bottom: 0.6rem;
+}
+.footer .fa-utensils {
+  padding-right: 1rem;
+}
+.footer .fa-hands-helping {
+  font-size: 0.7rem;
+  padding-right: 1rem;
+}
+
 /* Pages */
-/* Themes */
 
 /*# sourceMappingURL=style.css.map */

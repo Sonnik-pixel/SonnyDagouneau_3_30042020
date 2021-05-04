@@ -5,10 +5,6 @@
 @import "./utils/mixins";
 @import "./utils/placeholders";
 
-/* Vendors */
-
-
-
 /* Base */
 
 @import "./base/animations";
@@ -22,11 +18,10 @@
 /* Layout */
 
 @import "./layout/header";
-
+@import "./layout/footer";
 
 /* Pages */
 
 @import "./pages/home";
 @import "./pages/contact";
 
-/* Themes */
