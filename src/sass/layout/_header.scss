@@ -1,0 +1,20 @@
+.header {
+  &__wrapper__img {
+    display: flex;
+    justify-content: center;
+    padding: 1.3rem 0 0.5rem 0;
+  }
+}
+
+.header__wrapper__search {
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px inset;
+  color: rgb(78, 78, 78);
+  i {
+    padding-right: 1rem;
+  }
+}

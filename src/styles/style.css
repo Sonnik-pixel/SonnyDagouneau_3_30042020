@@ -15,12 +15,31 @@ body {
   font-size: 1rem;
 }
 
-img {
+.restaurants img {
   width: 90%;
 }
 
 /* Components */
 /* Layout */
+.header__wrapper__img {
+  display: flex;
+  justify-content: center;
+  padding: 1.3rem 0 0.5rem 0;
+}
+
+.header__wrapper__search {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px inset;
+  color: #4e4e4e;
+}
+.header__wrapper__search i {
+  padding-right: 1rem;
+}
+
 .footer {
   background-color: #353535;
   color: white;
