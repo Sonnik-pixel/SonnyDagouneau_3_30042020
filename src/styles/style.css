@@ -15,28 +15,25 @@ body {
   font-size: 1rem;
 }
 
-.restaurants img {
-  width: 90%;
-}
-
 /* Components */
 /* Layout */
-.header__wrapper__img {
+.header__wrapper-img {
   display: flex;
   justify-content: center;
   padding: 1.3rem 0 0.5rem 0;
 }
 
-.header__wrapper__search {
-  background-color: #f0f0f0;
+.header__wrapper-search {
+  background-color: #e6e6e6;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 3rem;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px inset;
-  color: #4e4e4e;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px inset;
+  color: #303030;
+  font-size: 1rem;
 }
-.header__wrapper__search i {
+.header__wrapper-search i {
   padding-right: 1rem;
 }
 
@@ -68,5 +65,40 @@ body {
 }
 
 /* Pages */
+.informations {
+  background: #eeeeee;
+  height: 20rem;
+  padding: 3rem 1.5rem;
+}
+.informations__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.informations__title {
+  padding-bottom: 1rem;
+}
+.informations p {
+  padding-bottom: 3rem;
+  font-size: 1.1rem;
+  font-weight: lighter;
+}
+.informations button {
+  padding: 1rem;
+  margin: auto;
+  border-radius: 2rem;
+  border-style: none;
+  font-size: 1.1rem;
+  font-weight: lighter;
+  color: white;
+  background: linear-gradient(180deg, #FF79DA, #9356DC);
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+}
+
+.restaurants img {
+  width: 90%;
+}
 
 /*# sourceMappingURL=style.css.map */
