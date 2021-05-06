@@ -16,6 +16,19 @@ body {
 }
 
 /* Components */
+.btn {
+  padding: 1rem;
+  margin: auto;
+  border-radius: 2rem;
+  border-style: none;
+  font-size: 1.1rem;
+  font-weight: lighter;
+  color: white;
+  background: linear-gradient(180deg, #FF79DA, #9356DC);
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+}
+
 /* Layout */
 .header__wrapper-img {
   display: flex;
@@ -69,8 +82,6 @@ body {
   background: #eeeeee;
   height: 20rem;
   padding: 3rem 1.5rem;
-}
-.informations__wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -83,18 +94,6 @@ body {
   padding-bottom: 3rem;
   font-size: 1.1rem;
   font-weight: lighter;
-}
-.informations button {
-  padding: 1rem;
-  margin: auto;
-  border-radius: 2rem;
-  border-style: none;
-  font-size: 1.1rem;
-  font-weight: lighter;
-  color: white;
-  background: linear-gradient(180deg, #FF79DA, #9356DC);
-  cursor: pointer;
-  box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
 }
 
 .restaurants img {
