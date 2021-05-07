@@ -1,0 +1,18 @@
+.restaurants {
+
+  .card {
+    background-color: white;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    height: 17.5rem;
+    position: relative;
+    box-shadow: rgb(0 0 0 / 15%) 0px 3px 8px;
+
+    .icone-heart {
+        position: absolute;
+        right: 2rem;
+        bottom: 2.1rem;
+        font-size: 1.6rem;
+    }
+  }
+}
