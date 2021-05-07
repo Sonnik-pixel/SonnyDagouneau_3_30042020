@@ -26,6 +26,7 @@ body {
   color: white;
   background: linear-gradient(180deg, #FF79DA, #9356DC);
   cursor: pointer;
+  outline: none;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 8px;
 }
 .btn:hover {
