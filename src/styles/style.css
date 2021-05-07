@@ -48,6 +48,10 @@ body {
   right: 2rem;
   bottom: 2.1rem;
   font-size: 1.6rem;
+  color: black;
+}
+.restaurants .card .icone-heart :hover {
+  background: linear-gradient(0deg, #FF79DA, #9356DC);
 }
 
 /* Layout */

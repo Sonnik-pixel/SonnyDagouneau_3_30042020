@@ -13,6 +13,11 @@
         right: 2rem;
         bottom: 2.1rem;
         font-size: 1.6rem;
+        color: black;
+
+        :hover {
+            background: linear-gradient(0deg, $colour-secondary, $colour-primary);
+        }
     }
   }
 }
