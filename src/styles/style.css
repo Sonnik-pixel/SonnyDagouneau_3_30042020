@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Utils */
 /* Base */
 /* Reset */
@@ -48,10 +49,18 @@ body {
   right: 2rem;
   bottom: 2.1rem;
   font-size: 1.6rem;
-  color: black;
+  /*coeur de base transparent*/
+  color: transparent;
+  /*je rajoute les bords*/
+  -webkit-text-stroke: 2px black;
 }
-.restaurants .card .icone-heart :hover {
+.restaurants .card .icone-heart:hover {
+  /*background sur tout le fond*/
   background: linear-gradient(0deg, #FF79DA, #9356DC);
+  /*background seulement dans le coeur*/
+  -webkit-background-clip: text;
+  /*j'enlève la bordure noir du coeur*/
+  -webkit-text-stroke: transparent;
 }
 
 /* Layout */
