@@ -1,4 +1,3 @@
-.restaurants {
   .card {
     background-color: white;
     border-radius: 1rem;
@@ -12,7 +11,7 @@
       right: 2rem;
       bottom: 2.1rem;
       font-size: 1.6rem;
-      /*coeur de base transparent*/
+      /*coeur de base couleur noir dans html fas au lieu de far --> transparent*/
       color: transparent;
       /*je rajoute les bords*/
       -webkit-text-stroke: 2px black;
@@ -21,10 +20,12 @@
         /*background sur tout le fond*/
         background: linear-gradient(0deg, $colour-secondary, $colour-primary);
         /*background seulement dans le coeur*/
+        /*propriété de base et en plus celle avec le préfixe*/
+        background-clip: text;
         -webkit-background-clip: text;
         /*j'enlève la bordure noir du coeur*/
         -webkit-text-stroke: transparent;
       }
     }
   }
-}
+

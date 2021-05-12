@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /* Utils */
 /* Base */
+/*déclaration des keyframes*/
 /* Reset */
 * {
   margin: 0;
@@ -36,7 +37,7 @@ body {
   transition-duration: 0.5s;
 }
 
-.restaurants .card {
+.card {
   background-color: white;
   border-radius: 1rem;
   margin-bottom: 1rem;
@@ -44,20 +45,22 @@ body {
   position: relative;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px;
 }
-.restaurants .card .icone-heart {
+.card .icone-heart {
   position: absolute;
   right: 2rem;
   bottom: 2.1rem;
   font-size: 1.6rem;
-  /*coeur de base transparent*/
+  /*coeur de base couleur noir dans html fas au lieu de far --> transparent*/
   color: transparent;
   /*je rajoute les bords*/
   -webkit-text-stroke: 2px black;
 }
-.restaurants .card .icone-heart:hover {
+.card .icone-heart:hover {
   /*background sur tout le fond*/
   background: linear-gradient(0deg, #FF79DA, #9356DC);
   /*background seulement dans le coeur*/
+  /*propriété de base et en plus celle avec le préfixe*/
+  background-clip: text;
   -webkit-background-clip: text;
   /*j'enlève la bordure noir du coeur*/
   -webkit-text-stroke: transparent;
@@ -204,6 +207,7 @@ body {
 }
 
 /* Pages */
+/* style spécifique à certaine pages */
 .informations {
   background: #f6f6f6;
   height: 20rem;
