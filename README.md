@@ -63,7 +63,7 @@ graphique du site.
 # Pages de menu
 ● À l’arrivée sur la page, les plats devront apparaître progressivement avec un léger
 décalage dans le temps. Ils pourront soit apparaître un par un, soit par groupe
-“Entrée”, “Plat” et “Dessert”. Un exemple de l’effet attendu est fourni.
+“Entrée”, “Plat” et “Dessert”. Un exemple de l’effet attendu est fourni.</br>
 ● Le visiteur peut ajouter les plats qu'il souhaite à sa commande en cliquant dessus.
 Cela fait apparaître une petite coche à droite du plat. Cette coche devra coulisser de
 la droite vers la gauche. Pour cette première version, l’effet peut apparaître au survol
