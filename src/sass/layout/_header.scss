@@ -18,5 +18,18 @@
 
   i {
     padding-right: 1rem;
+    color: #353535;
+  }
+
+  input {
+    background-color: rgb(234, 234, 234);
+    border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  input::placeholder {
+    color: #353535;
   }
 }

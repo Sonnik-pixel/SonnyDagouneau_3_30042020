@@ -54,6 +54,8 @@ body {
   color: transparent;
   /*je rajoute les bords*/
   -webkit-text-stroke: 2px black;
+  /*opacity: 0.5;*/
+  transition-duration: 1s;
 }
 .card .icone-heart:hover {
   /*background sur tout le fond*/
@@ -64,6 +66,7 @@ body {
   -webkit-background-clip: text;
   /*j'enlève la bordure noir du coeur*/
   -webkit-text-stroke: transparent;
+  /*opacity: 1;*/
 }
 
 /* Layout */
@@ -85,6 +88,17 @@ body {
 }
 .header__wrapper-search i {
   padding-right: 1rem;
+  color: #353535;
+}
+.header__wrapper-search input {
+  background-color: #eaeaea;
+  border: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.header__wrapper-search input::placeholder {
+  color: #353535;
 }
 
 .functioning {

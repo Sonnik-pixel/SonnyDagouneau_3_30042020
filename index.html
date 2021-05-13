@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Shrikhand&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
     <link rel="stylesheet" href="./src/styles/style.css">
     <title>Ohmyfood</title>
 </head>
@@ -18,12 +18,14 @@
         <div class="header__wrapper-img">
             <img src="./src/img/logo/ohmyfood.svg" alt="Logo ohmyfood">
         </div>
-        <div class="header__wrapper-search">
-            <i class="fas fa-map-marker-alt"></i>
-            <p>Paris, Belleville</p>
-        </div>
     </header>
     <main>
+        <section class="location">
+            <div class="header__wrapper-search">
+                <i class="fas fa-map-marker-alt"></i>
+                <input type="text" id="name" name="q" placeholder="Paris, Belleville" size="13">
+            </div>
+        </section>
         <section class="informations">
             <h1 class="informations__title">Réservez le menu qui vous convient</h1>
             <p>Découvrez des restaurants d'exeception, séléctionnés par nos soins.</p>
