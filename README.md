@@ -15,7 +15,7 @@ l’approche mobile-first. Pour cette raison, seules des maquettes mobiles seron
 Sur tablette et desktop, le site devra s’adapter, mais ces supports n’étant pas prioritaires,
 leur mise en page est libre.
 
-● L’ensemble du site devra être responsive sur mobile, tablette et desktop.
-● Les pages devront passer la validation W3C en HTML et CSS sans erreur.
+● L’ensemble du site devra être responsive sur mobile, tablette et desktop.</br>
+● Les pages devront passer la validation W3C en HTML et CSS sans erreur.</br>
 ● Le site doit être parfaitement compatible avec les dernières versions desktop de
-Chrome et Firefox
+Chrome et Firefox.</br>
