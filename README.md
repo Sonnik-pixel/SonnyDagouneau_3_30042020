@@ -3,6 +3,7 @@
 # OpenClassroom P3 : Dynamisez une page web avec des animations CSS
 [![Accueil.png](https://i.postimg.cc/Cx5892QZ/Accueil.png)](https://postimg.cc/cvq6nFZZ)
  * [Mon GitHub Pages](https://sonnik-pixel.github.io/SonnyDagouneau_3_30042020/)
+ * Sass + Pattern 7.1
 
 # Technologies
 ● Le développement devra se faire en CSS, sans JavaScript.</br>
