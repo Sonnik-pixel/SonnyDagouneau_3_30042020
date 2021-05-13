@@ -4,7 +4,7 @@
 [Mon GitHub Pages](https://sonnik-pixel.github.io/SonnyDagouneau_3_30042020/)
 
 # Technologies
-● Le développement devra se faire en CSS, sans JavaScript.
+● Le développement devra se faire en CSS, sans JavaScript.</br>
 ● Aucun framework ne devra être utilisé, en revanche l’utilisation de SASS serait un
 plus.
 ● Aucun code CSS ne devra être appliqué via un attribut style dans une balise HTML.
