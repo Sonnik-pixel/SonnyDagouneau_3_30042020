@@ -45,25 +45,28 @@ body {
   position: relative;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px;
 }
-.card .icone-heart {
+.card .white {
+  z-index: 1;
+  background-color: white;
   position: absolute;
   right: 2rem;
   bottom: 2.1rem;
   font-size: 1.6rem;
-  /*coeur de base couleur noir dans html fas au lieu de far --> transparent*/
-  color: transparent;
-  /*je rajoute les bords*/
-  -webkit-text-stroke: 2px black;
+  color: black;
 }
-.card .icone-heart:hover {
-  /*background sur tout le fond*/
+.card .white:hover {
+  opacity: 0;
+  transition-duration: 1s;
+}
+.card .colored {
+  position: absolute;
+  right: 2rem;
+  bottom: 2.1rem;
+  font-size: 1.6rem;
+  color: transparent;
   background: linear-gradient(0deg, #FF79DA, #9356DC);
-  /*background seulement dans le coeur*/
-  /*propriété de base et en plus celle avec le préfixe*/
   background-clip: text;
   -webkit-background-clip: text;
-  /*j'enlève la bordure noir du coeur*/
-  -webkit-text-stroke: transparent;
 }
 
 /* Layout */
