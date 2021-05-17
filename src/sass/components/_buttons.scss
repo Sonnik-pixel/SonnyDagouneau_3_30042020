@@ -1,15 +1,16 @@
 .btn {
-  padding: 1rem;
+  padding: 1rem 1.2rem;
   margin: auto;
   border-radius: 2rem;
   border-style: none;
   font-size: 1.1rem;
-  font-weight: lighter;
-  color: white;
   background: linear-gradient(180deg, $colour-secondary, $colour-primary);
-  cursor: pointer;
   outline: none;
   box-shadow: rgb(0 0 0 / 30%) 0px 5px 8px;
+
+  a {
+    color: white;
+  }
 
 
   &:hover {
