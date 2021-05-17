@@ -2,6 +2,39 @@
 /* Utils */
 /* Base */
 /* déclaration des keyframes */
+/* loader */
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  /*-0.5 elle descend*/
+  25% {
+    transform: translateY(-1rem);
+  }
+  /*elle revient au centre*/
+  50% {
+    transform: translateY(0);
+  }
+  /*elle remonte*/
+  75% {
+    transform: translateY(1rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes loader {
+  0% {
+    opacity: 0.9;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+    z-index: -1;
+  }
+}
 /* Reset */
 * {
   margin: 0;
@@ -15,6 +48,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 1rem;
+  /*position: relative;*/
 }
 
 /* Components */
@@ -88,6 +122,46 @@ body {
   background: linear-gradient(0deg, #FF79DA, #9356DC);
   background-clip: text;
   -webkit-background-clip: text;
+}
+
+.loader__section {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(236, 253, 247, 0.9);
+  z-index: 10;
+  /*position: absolute;*/
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*durée de l'animation des boules*/
+  animation: loader 1s;
+  /*durée de l'animation de transparence*/
+  /*durée de 0.75s*/
+  animation-delay: 1.75s;
+  animation-fill-mode: both;
+}
+.loader__wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 7.5rem;
+}
+.loader__item {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 1rem;
+  animation: jump ease-in-out 1s;
+}
+.loader__item--1 {
+  background-color: #9356DC;
+}
+.loader__item--2 {
+  background-color: #FF79DA;
+  animation-delay: 0.25s;
+}
+.loader__item--3 {
+  background-color: #99E2D0;
+  animation-delay: 0.5s;
 }
 
 /* Layout */

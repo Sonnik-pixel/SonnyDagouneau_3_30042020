@@ -1,0 +1,46 @@
+.loader {
+  &__section {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(236, 253, 247, 0.9);
+    z-index: 10;
+    /*position: absolute;*/
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*durée de l'animation des boules*/
+    animation: loader 1s;
+    /*durée de l'animation de transparence*/
+    /*durée de 0.75s*/
+    animation-delay: 1.75s;
+    animation-fill-mode: both;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 7.5rem;
+  }
+
+  &__item {
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 1rem;
+    animation: jump ease-in-out 1s;
+
+    &--1 {
+        background-color: $colour-primary;
+    }
+
+    &--2 {
+        background-color: $colour-secondary;
+        animation-delay: 0.25s;
+    }
+
+    &--3 {
+        background-color: $colour-tertiary;
+        animation-delay: 0.5s;
+    }
+  }
+}

@@ -1,1 +1,40 @@
 /* déclaration des keyframes */
+
+/* loader */
+
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  /*-0.5 elle descend*/
+  25% {
+    transform: translateY(-1rem);
+  }
+  /*elle revient au centre*/
+  50% {
+    transform: translateY(0);
+  }
+  /*elle remonte*/
+  75% {
+    transform: translateY(1rem);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes loader {
+    0% {
+        opacity: 0.9;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 0;
+        z-index: -1;
+    }
+}
