@@ -7,11 +7,7 @@
   background: linear-gradient(180deg, $colour-secondary, $colour-primary);
   outline: none;
   box-shadow: rgb(0 0 0 / 30%) 0px 5px 8px;
-
-  a {
-    color: white;
-  }
-
+  color: white;
 
   &:hover {
     opacity: 0.8;

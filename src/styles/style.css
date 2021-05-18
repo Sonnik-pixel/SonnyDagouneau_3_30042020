@@ -61,8 +61,6 @@ body {
   background: linear-gradient(180deg, #FF79DA, #9356DC);
   outline: none;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 8px;
-}
-.btn a {
   color: white;
 }
 .btn:hover {
@@ -127,7 +125,7 @@ body {
 .loader__section {
   width: 100vw;
   height: 100vh;
-  background-color: rgba(236, 253, 247, 0.9);
+  background-color: white;
   z-index: 10;
   /*position: absolute;*/
   position: fixed;
