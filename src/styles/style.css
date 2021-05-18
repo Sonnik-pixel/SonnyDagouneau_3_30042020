@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* Utils */
+/*arrive par a mettre un argument*/
 /* Base */
 /* déclaration des keyframes */
 /* loader */
@@ -206,13 +207,13 @@ body {
 }
 .functioning__item {
   background: #f6f6f6;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px;
   margin-bottom: 1.8rem;
   display: flex;
   position: relative;
   padding: 1.75rem;
   border-radius: 1.3rem;
   transition-duration: 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px;
 }
 .functioning__item p {
   font-weight: 500;

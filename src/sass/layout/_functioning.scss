@@ -11,14 +11,14 @@
   }
 
   &__item {
-    background: $backgroung-grey;
-    box-shadow: rgb(0 0 0 / 15%) 0px 3px 8px;
+    background: $background-primary;
     margin-bottom: 1.8rem;
     display: flex;
     position: relative;
     padding: 1.75rem;
     border-radius: 1.3rem;
     transition-duration: 0.5s;
+    @include box-shadow-card;
 
     p {
       font-weight: 500;
