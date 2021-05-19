@@ -289,7 +289,10 @@ body {
   right: 2rem;
   bottom: 2.1rem;
   font-size: 1.6rem;
-  color: black;
+  color: white;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 2px black;
 }
 .white:hover {
   opacity: 0;
@@ -367,6 +370,13 @@ body {
   font-weight: lighter;
 }
 
+.header__img-restaurant {
+  width: 100%;
+  height: 20rem;
+  z-index: -1;
+  object-fit: cover;
+}
+
 .menus {
   width: 100%;
   height: 10rem;
@@ -383,21 +393,10 @@ body {
   font-weight: 500;
 }
 
-.header__img-restaurant {
-  width: 100%;
-  height: 20rem;
-  z-index: -1;
-  object-fit: cover;
-}
-
-.menus_relative {
-  width: 100%;
-  height: 2rem;
-  position: relative;
-}
-
 .icone-heart {
-  /*position: relative;*/
+  position: relative;
+  top: 1.5rem;
+  left: 1.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
