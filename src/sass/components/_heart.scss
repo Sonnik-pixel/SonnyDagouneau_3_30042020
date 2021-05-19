@@ -1,0 +1,24 @@
+.white {
+    z-index: 1;
+    background-color: white;
+    position: absolute;
+    right: 2rem;
+    bottom: 2.1rem;
+    font-size: 1.6rem;
+    color: black;
+
+    &:hover {
+      opacity: 0;
+      transition-duration: 1s;
+    }
+  }
+  .colored {
+    position: absolute;
+    right: 2rem;
+    bottom: 2.1rem;
+    font-size: 1.6rem;
+    color: transparent;
+    background: linear-gradient(0deg, $colour-secondary, $colour-primary);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }

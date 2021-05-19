@@ -6,14 +6,9 @@
 
 /* Base */
 
-@import "./base/animations";
+@import "./base/reset";
 @import "./base/base";
-
-/* Components */
-
-@import "./components/buttons";
-@import "./components/card";
-@import "./components/loader";
+@import "./base/animations";
 
 /* Layout */
 
@@ -21,6 +16,13 @@
 @import "./layout/functioning";
 @import "./layout/restaurants";
 @import "./layout/footer";
+
+/* Components */
+
+@import "./components/buttons";
+@import "./components/card";
+@import "./components/heart";
+@import "./components/loader";
 
 /* Pages */
 

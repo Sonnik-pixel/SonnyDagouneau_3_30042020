@@ -2,6 +2,21 @@
 /* Utils */
 /*arrive par a mettre un argument*/
 /* Base */
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
 /* déclaration des keyframes */
 /* loader */
 @keyframes jump {
@@ -36,141 +51,6 @@
     z-index: -1;
   }
 }
-/* Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 1rem;
-  /*position: relative;*/
-}
-
-/* Components */
-.btn {
-  padding: 1rem 1.2rem;
-  margin: auto;
-  border-radius: 2rem;
-  border-style: none;
-  font-size: 1.1rem;
-  background: linear-gradient(180deg, #FF79DA, #9356DC);
-  outline: none;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 8px;
-  color: white;
-}
-.btn:hover {
-  opacity: 0.8;
-  box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 8px;
-  transition-duration: 0.5s;
-}
-
-.header__return {
-  font-size: 1.4rem;
-  position: absolute;
-  top: 1.5rem;
-  left: 1rem;
-  color: black;
-}
-
-.card {
-  background-color: white;
-  border-radius: 1rem;
-  margin-bottom: 1rem;
-  height: 17.5rem;
-  position: relative;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px;
-  /*.icone-heart {
-      position: absolute;
-      right: 2rem;
-      bottom: 2.1rem;
-      font-size: 1.6rem;
-      /*coeur de base couleur noir dans html fas au lieu de far --> transparent*/
-  /*color: transparent;
-      /*je rajoute les bords*/
-  /*-webkit-text-stroke: 2px black;
-
-      &:hover {
-        /*background sur tout le fond*/
-  /*background: linear-gradient(0deg, $colour-secondary, $colour-primary);
-        /*background seulement dans le coeur*/
-  /*propriété de base et en plus celle avec le préfixe*/
-  /*background-clip: text;
-        -webkit-background-clip: text;
-        /*j'enlève la bordure noir du coeur*/
-  /*-webkit-text-stroke: transparent;
-      }
-    }*/
-}
-.card .white {
-  z-index: 1;
-  background-color: white;
-  position: absolute;
-  right: 2rem;
-  bottom: 2.1rem;
-  font-size: 1.6rem;
-  color: black;
-}
-.card .white:hover {
-  opacity: 0;
-  transition-duration: 1s;
-}
-.card .colored {
-  position: absolute;
-  right: 2rem;
-  bottom: 2.1rem;
-  font-size: 1.6rem;
-  color: transparent;
-  background: linear-gradient(0deg, #FF79DA, #9356DC);
-  background-clip: text;
-  -webkit-background-clip: text;
-}
-
-.loader__section {
-  width: 100vw;
-  height: 100vh;
-  background-color: white;
-  z-index: 10;
-  /*position: absolute;*/
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /*durée de l'animation des boules*/
-  animation: loader 1s;
-  /*durée de l'animation de transparence*/
-  /*durée de 0.75s*/
-  animation-delay: 1.75s;
-  animation-fill-mode: both;
-}
-.loader__wrapper {
-  display: flex;
-  justify-content: space-between;
-  width: 7.5rem;
-}
-.loader__item {
-  height: 1.5rem;
-  width: 1.5rem;
-  border-radius: 1rem;
-  animation: jump ease-in-out 1s;
-}
-.loader__item--1 {
-  background-color: #9356DC;
-}
-.loader__item--2 {
-  background-color: #FF79DA;
-  animation-delay: 0.25s;
-}
-.loader__item--3 {
-  background-color: #99E2D0;
-  animation-delay: 0.5s;
-}
-
 /* Layout */
 .header__wrapper-img {
   display: flex;
@@ -322,6 +202,151 @@ body {
   padding-right: 1rem;
 }
 
+/* Components */
+.btn {
+  padding: 1rem 1.2rem;
+  margin: auto;
+  border-radius: 2rem;
+  border-style: none;
+  font-size: 1.1rem;
+  background: linear-gradient(180deg, #FF79DA, #9356DC);
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 8px;
+  color: white;
+}
+.btn:hover {
+  opacity: 0.8;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 8px;
+  transition-duration: 0.5s;
+}
+
+.header__return {
+  font-size: 1.4rem;
+  position: absolute;
+  top: 1.5rem;
+  left: 1rem;
+  color: black;
+}
+
+.card {
+  background-color: white;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  height: 17.5rem;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px;
+  /*.icone-heart {
+      position: absolute;
+      right: 2rem;
+      bottom: 2.1rem;
+      font-size: 1.6rem;
+      /*coeur de base couleur noir dans html fas au lieu de far --> transparent*/
+  /*color: transparent;
+      /*je rajoute les bords*/
+  /*-webkit-text-stroke: 2px black;
+
+      &:hover {
+        /*background sur tout le fond*/
+  /*background: linear-gradient(0deg, $colour-secondary, $colour-primary);
+        /*background seulement dans le coeur*/
+  /*propriété de base et en plus celle avec le préfixe*/
+  /*background-clip: text;
+        -webkit-background-clip: text;
+        /*j'enlève la bordure noir du coeur*/
+  /*-webkit-text-stroke: transparent;
+      }
+    }*/
+  /*.white {
+    z-index: 1;
+    background-color: white;
+    position: absolute;
+    right: 2rem;
+    bottom: 2.1rem;
+    font-size: 1.6rem;
+    color: black;
+
+    &:hover {
+      opacity: 0;
+      transition-duration: 1s;
+    }
+  }
+  .colored {
+    position: absolute;
+    right: 2rem;
+    bottom: 2.1rem;
+    font-size: 1.6rem;
+    color: transparent;
+    background: linear-gradient(0deg, $colour-secondary, $colour-primary);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }*/
+}
+
+.white {
+  z-index: 1;
+  background-color: white;
+  position: absolute;
+  right: 2rem;
+  bottom: 2.1rem;
+  font-size: 1.6rem;
+  color: black;
+}
+.white:hover {
+  opacity: 0;
+  transition-duration: 1s;
+}
+
+.colored {
+  position: absolute;
+  right: 2rem;
+  bottom: 2.1rem;
+  font-size: 1.6rem;
+  color: transparent;
+  background: linear-gradient(0deg, #FF79DA, #9356DC);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.loader__section {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  z-index: 10;
+  /*position: absolute;*/
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*durée de l'animation des boules*/
+  animation: loader 1s;
+  /*durée de l'animation de transparence*/
+  /*durée de 0.75s*/
+  animation-delay: 1.75s;
+  animation-fill-mode: both;
+}
+.loader__wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 7.5rem;
+}
+.loader__item {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 1rem;
+  animation: jump ease-in-out 1s;
+}
+.loader__item--1 {
+  background-color: #9356DC;
+}
+.loader__item--2 {
+  background-color: #FF79DA;
+  animation-delay: 0.25s;
+}
+.loader__item--3 {
+  background-color: #99E2D0;
+  animation-delay: 0.5s;
+}
+
 /* Pages */
 /* style spécifique à certaines pages */
 .informations {
@@ -340,6 +365,39 @@ body {
   padding-bottom: 3rem;
   font-size: 1.1rem;
   font-weight: lighter;
+}
+
+.menus {
+  width: 100%;
+  height: 10rem;
+  border-radius: 3rem 3rem 0 0;
+  background-color: #f6f6f6;
+  position: absolute;
+  top: 20rem;
+  padding: 2rem 1.5rem;
+}
+.menus__title {
+  font-style: oblique 10deg;
+  font-family: "Shrikhand";
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.header__img-restaurant {
+  width: 100%;
+  height: 20rem;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.menus_relative {
+  width: 100%;
+  height: 2rem;
+  position: relative;
+}
+
+.icone-heart {
+  /*position: relative;*/
 }
 
 /*# sourceMappingURL=style.css.map */
