@@ -70,6 +70,14 @@ body {
   transition-duration: 0.5s;
 }
 
+.header__return {
+  font-size: 1.4rem;
+  position: absolute;
+  top: 1.5rem;
+  left: 1rem;
+  color: black;
+}
+
 .card {
   background-color: white;
   border-radius: 1rem;
@@ -315,7 +323,7 @@ body {
 }
 
 /* Pages */
-/* style spécifique à certaine pages */
+/* style spécifique à certaines pages */
 .informations {
   background: #f6f6f6;
   height: 20rem;
