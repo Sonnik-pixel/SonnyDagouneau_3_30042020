@@ -25,16 +25,41 @@
 }
 
 @keyframes loader {
-    0% {
-        opacity: 0.9;
-    }
+  0% {
+    opacity: 0.9;
+  }
 
-    50% {
-        opacity: 0.5;
-    }
+  50% {
+    opacity: 0.5;
+  }
 
-    100% {
-        opacity: 0;
-        z-index: -1;
-    }
+  100% {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+/* appearance of the dishes */
+
+@keyframes dishes {
+  0% {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+
+  25% {
+    opacity: 0.25;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  75% {
+    opacity: 0.75;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }

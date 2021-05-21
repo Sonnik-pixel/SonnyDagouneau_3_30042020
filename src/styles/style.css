@@ -51,6 +51,25 @@ body {
     z-index: -1;
   }
 }
+/* appearance of the dishes */
+@keyframes dishes {
+  0% {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /* Layout */
 .header__wrapper-img {
   display: flex;
@@ -408,7 +427,7 @@ body {
 }
 .enter__bar {
   width: 3rem;
-  height: 0.26rem;
+  height: 0.2rem;
   background-color: #99E2D0;
 }
 .enter__wrapper-p {
@@ -418,6 +437,9 @@ body {
   padding-bottom: 0.7rem;
   font-size: 1.2rem;
   font-weight: 500;
+}
+.enter__description {
+  font-weight: 300;
 }
 
 ul {
@@ -430,6 +452,16 @@ ul li {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px;
   display: flex;
   margin-bottom: 1rem;
+  animation: dishes 1.5s;
+}
+
+.price {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 1rem;
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=style.css.map */

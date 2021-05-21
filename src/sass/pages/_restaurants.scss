@@ -39,7 +39,7 @@
 
   &__bar {
     width: 3rem;
-    height: 0.26rem;
+    height: 0.2rem;
     background-color: $colour-tertiary;
   }
 
@@ -52,6 +52,10 @@
     font-size: 1.2rem;
     font-weight: 500;
   }
+
+  &__description {
+    font-weight: 300;
+  }
 }
 
 ul {
@@ -63,5 +67,15 @@ ul {
     @include box-shadow-card;
     display: flex;
     margin-bottom: 1rem;
+    animation: dishes 1.5s;
   }
+}
+
+.price {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 1rem;
+  font-weight: 500;
 }
