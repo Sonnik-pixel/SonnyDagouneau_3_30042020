@@ -7,7 +7,7 @@
 
 .menus {
   width: 100%;
-  height: 10rem;
+  /*height: 10rem;*/
   border-radius: 3rem 3rem 0 0;
   background-color: $background-primary;
   position: absolute;
@@ -26,4 +26,42 @@
   position: relative;
   top: 1.5rem;
   left: 1.5rem;
+}
+
+.enter {
+  h2 {
+    font-weight: lighter;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    padding-top: 2.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  &__bar {
+    width: 3rem;
+    height: 0.26rem;
+    background-color: $colour-tertiary;
+  }
+
+  &__wrapper-p {
+    width: 80%;
+  }
+
+  &__title {
+    padding-bottom: 0.7rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+}
+
+ul {
+  padding-top: 1.2rem;
+  li {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 0.7rem;
+    @include box-shadow-card;
+    display: flex;
+    margin-bottom: 1rem;
+  }
 }
