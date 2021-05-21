@@ -301,6 +301,17 @@ body {
   }*/
 }
 
+.check {
+  background-color: #99E2D0;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.4rem;
+  border-radius: 0 1rem 1rem 0;
+}
+
 .white {
   z-index: 1;
   background-color: white;
@@ -432,14 +443,26 @@ body {
 }
 .enter__wrapper-p {
   width: 80%;
+  /*afficher ...(ellipsis)*/
+  /*text-overflow: ellipsis;*/
+  /*permet de cacher le texte qui sort de la boîte*/
+  /*overflow: hidden;*/
+  /*ne pas wraper le texte*/
+  /*white-space: nowrap;*/
 }
 .enter__title {
   padding-bottom: 0.7rem;
   font-size: 1.2rem;
   font-weight: 500;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 .enter__description {
   font-weight: 300;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 .enter__card {
   padding-top: 1.2rem;
