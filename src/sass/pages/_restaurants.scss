@@ -56,18 +56,19 @@
   &__description {
     font-weight: 300;
   }
-}
 
-ul {
-  padding-top: 1.2rem;
-  li {
-    background-color: white;
-    border-radius: 1rem;
-    padding: 0.7rem;
-    @include box-shadow-card;
-    display: flex;
-    margin-bottom: 1rem;
-    animation: dishes 1.5s;
+  &__card {
+    padding-top: 1.2rem;
+
+    &__item {
+      background-color: white;
+      border-radius: 1rem;
+      padding: 0.7rem;
+      @include box-shadow-card;
+      display: flex;
+      margin-bottom: 1rem;
+      animation: dishes 1.5s;
+    }
   }
 }
 

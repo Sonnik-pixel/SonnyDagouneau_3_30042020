@@ -441,11 +441,10 @@ body {
 .enter__description {
   font-weight: 300;
 }
-
-ul {
+.enter__card {
   padding-top: 1.2rem;
 }
-ul li {
+.enter__card__item {
   background-color: white;
   border-radius: 1rem;
   padding: 0.7rem;
