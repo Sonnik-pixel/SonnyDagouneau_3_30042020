@@ -14,6 +14,7 @@
     /*durée de l'animation de transparence*/
     /*durée de 0.75s*/
     animation-delay: 1.75s;
+    /*pour ne pas faire réapparraître l'animation*/
     animation-fill-mode: both;
   }
 
@@ -30,17 +31,17 @@
     animation: jump ease-in-out 1s;
 
     &--1 {
-        background-color: $colour-primary;
+      background-color: $colour-primary;
     }
 
     &--2 {
-        background-color: $colour-secondary;
-        animation-delay: 0.25s;
+      background-color: $colour-secondary;
+      animation-delay: 0.25s;
     }
 
     &--3 {
-        background-color: $colour-tertiary;
-        animation-delay: 0.5s;
+      background-color: $colour-tertiary;
+      animation-delay: 0.5s;
     }
   }
 }

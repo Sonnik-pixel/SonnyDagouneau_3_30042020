@@ -1,10 +1,15 @@
 .check {
-    background-color: $colour-tertiary;
-    width: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-size: 1.4rem;
-    border-radius: 0 1rem 1rem 0;
+  background-color: $colour-tertiary;
+  width: 70px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.4rem;
+  border-radius: 0 1rem 1rem 0;
+  position: absolute;
+  top: 0;
+  right: -5rem;
+  transition: 1s;
 }

@@ -303,13 +303,18 @@ body {
 
 .check {
   background-color: #99E2D0;
-  width: 20%;
+  width: 70px;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
   font-size: 1.4rem;
   border-radius: 0 1rem 1rem 0;
+  position: absolute;
+  top: 0;
+  right: -5rem;
+  transition: 1s;
 }
 
 .white {
@@ -355,6 +360,7 @@ body {
   /*durée de l'animation de transparence*/
   /*durée de 0.75s*/
   animation-delay: 1.75s;
+  /*pour ne pas faire réapparraître l'animation*/
   animation-fill-mode: both;
 }
 .loader__wrapper {
@@ -409,7 +415,6 @@ body {
 
 .menus {
   width: 100%;
-  /*height: 10rem;*/
   border-radius: 3rem 3rem 0 0;
   background-color: #f6f6f6;
   position: absolute;
@@ -464,10 +469,12 @@ body {
   overflow: hidden;
   white-space: nowrap;
 }
+
 .enter__card {
   padding-top: 1.2rem;
 }
 .enter__card__item {
+  width: 100%;
   background-color: white;
   border-radius: 1rem;
   padding: 0.7rem;
@@ -475,6 +482,23 @@ body {
   display: flex;
   margin-bottom: 1rem;
   animation: dishes 1.5s;
+  /*cache le dépassement de la boîte*/
+  overflow: hidden;
+  position: relative;
+  /*&--2 {
+    animation-delay: 0.25s;
+  }
+
+  &--3 {
+    animation-delay: 0.5s;
+  }*/
+}
+.enter__card__item:hover .check {
+  right: 0px;
+}
+.enter__card__item:hover .check i {
+  transform: rotate(1turn);
+  transition-duration: 1s;
 }
 
 .price {
