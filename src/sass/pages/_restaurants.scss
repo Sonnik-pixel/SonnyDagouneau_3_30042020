@@ -44,12 +44,6 @@
 
   &__wrapper-p {
     width: 80%;
-    /*afficher ...(ellipsis)*/
-    /*text-overflow: ellipsis;*/
-    /*permet de cacher le texte qui sort de la boîte*/
-    /*overflow: hidden;*/
-    /*ne pas wraper le texte*/
-    /*white-space: nowrap;*/
   }
 
   &__title {
@@ -92,21 +86,39 @@
     &--3 {
       animation-delay: 0.5s;
     }*/
-    &:hover .check {
-      right: 0px;
+    &:hover {
+      .check {
+        right: 0px;
+      }
+
+      .price {
+        /*car check mesure 70px*/
+        transform: translateX(-70px);
+      }
+
       i {
         transform: rotate(1turn);
-        transition-duration: 1s;
+        transition: 1s;
+      }
+
+      .enter__wrapper-p {
+        /*max-width: calc(100% - 100px);*/
+        width: 60%;
       }
     }
   }
 }
 
 .price {
-  width: 20%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  width: 10px;
   padding-right: 1rem;
   font-weight: 500;
+  right: 1.5rem;
+  bottom: 0.6rem;
+  transition: 1s;
+  position: absolute;
+}
+
+.enter__wrapper-p {
+  transition: 0.5s;
 }

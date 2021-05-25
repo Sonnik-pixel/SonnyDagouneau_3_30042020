@@ -324,7 +324,7 @@ body {
   right: 2rem;
   bottom: 2.1rem;
   font-size: 1.6rem;
-  color: white;
+  color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-stroke: 2px black;
@@ -448,12 +448,6 @@ body {
 }
 .enter__wrapper-p {
   width: 80%;
-  /*afficher ...(ellipsis)*/
-  /*text-overflow: ellipsis;*/
-  /*permet de cacher le texte qui sort de la boîte*/
-  /*overflow: hidden;*/
-  /*ne pas wraper le texte*/
-  /*white-space: nowrap;*/
 }
 .enter__title {
   padding-bottom: 0.7rem;
@@ -496,18 +490,31 @@ body {
 .enter__card__item:hover .check {
   right: 0px;
 }
-.enter__card__item:hover .check i {
+.enter__card__item:hover .price {
+  /*car check mesure 70px*/
+  transform: translateX(-70px);
+}
+.enter__card__item:hover i {
   transform: rotate(1turn);
-  transition-duration: 1s;
+  transition: 1s;
+}
+.enter__card__item:hover .enter__wrapper-p {
+  /*max-width: calc(100% - 100px);*/
+  width: 60%;
 }
 
 .price {
-  width: 20%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  width: 10px;
   padding-right: 1rem;
   font-weight: 500;
+  right: 1.5rem;
+  bottom: 0.6rem;
+  transition: 1s;
+  position: absolute;
+}
+
+.enter__wrapper-p {
+  transition: 0.5s;
 }
 
 /*# sourceMappingURL=style.css.map */
