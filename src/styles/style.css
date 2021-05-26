@@ -233,6 +233,9 @@ body {
   box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 8px;
   color: white;
 }
+.btn--large {
+  padding: 1rem 3rem;
+}
 .btn:hover {
   opacity: 0.8;
   box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 8px;
@@ -417,8 +420,8 @@ body {
   width: 100%;
   border-radius: 3rem 3rem 0 0;
   background-color: #f6f6f6;
-  position: absolute;
-  top: 20rem;
+  position: relative;
+  margin-top: -3rem;
   padding: 2rem 1.5rem;
 }
 .menus__title {
@@ -515,6 +518,11 @@ body {
 
 .enter__wrapper-p {
   transition: 0.5s;
+}
+
+.bouton {
+  display: flex;
+  padding: 2rem 0;
 }
 
 /*# sourceMappingURL=style.css.map */

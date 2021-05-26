@@ -9,6 +9,10 @@
   box-shadow: rgb(0 0 0 / 30%) 0px 5px 8px;
   color: white;
 
+  &--large {
+    padding: 1rem 3rem;
+  }
+
   &:hover {
     opacity: 0.8;
     box-shadow: rgb(0 0 0 / 60%) 0px 5px 8px;

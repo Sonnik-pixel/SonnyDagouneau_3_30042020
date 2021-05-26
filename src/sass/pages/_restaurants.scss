@@ -9,8 +9,8 @@
   width: 100%;
   border-radius: 3rem 3rem 0 0;
   background-color: $background-primary;
-  position: absolute;
-  top: 20rem;
+  position: relative;
+  margin-top: -3rem;
   padding: 2rem 1.5rem;
 
   &__title {
@@ -121,4 +121,9 @@
 
 .enter__wrapper-p {
   transition: 0.5s;
+}
+
+.bouton {
+  display: flex;
+  padding: 2rem 0;
 }
