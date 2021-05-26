@@ -3,6 +3,14 @@
 
   &__title {
     padding-bottom: 2rem;
+
+    @include tablet {
+      text-align: center;
+    }
+
+    @include desktop {
+      text-align: center;
+    }
   }
 
   &__list {
@@ -51,10 +59,20 @@
     &__wrapper-icon {
       width: 2.5rem;
       color: grey;
-      
+
       i {
         font-size: 1.1rem;
       }
     }
+  }
+
+  @include tablet {
+    width: 30rem;
+    margin: auto;
+  }
+
+  @include desktop {
+    width: 40rem;
+    margin: auto;
   }
 }

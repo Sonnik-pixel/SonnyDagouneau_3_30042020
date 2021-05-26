@@ -4,6 +4,16 @@
 
   &__title {
     padding-bottom: 1.5rem;
+
+    @include tablet {
+      width: 100%;
+      text-align: center;
+    }
+
+    @include desktop {
+      width: 100%;
+      text-align: center;
+    }
   }
 
   img {
@@ -41,5 +51,29 @@
       font-weight: 200;
       padding-top: 0.3rem;
     }
+  }
+
+  a {
+    @include tablet {
+      /*si 50% se touche 49% pour faire un space between*/
+      /*padding non possible car ne centre pas*/
+      width: 49%;
+    }
+
+    @include desktop {
+      width: 24%;
+    }
+  }
+
+  @include tablet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  @include desktop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 }

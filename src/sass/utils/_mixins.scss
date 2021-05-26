@@ -1,5 +1,17 @@
-/*arrive par a mettre un argument*/
-
 @mixin box-shadow-card {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px;
+}
+
+/*technique de Landon Schropp*/
+
+@mixin tablet {
+  @media (min-width: 768px) and (max-width: 1023px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: 1024px) {
+    @content;
+  }
 }

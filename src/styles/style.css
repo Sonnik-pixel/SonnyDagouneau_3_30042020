@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* Utils */
-/*arrive par a mettre un argument*/
+/*technique de Landon Schropp*/
 /* Base */
 /* Reset */
 * {
@@ -108,6 +108,16 @@ body {
 .functioning__title {
   padding-bottom: 2rem;
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .functioning__title {
+    text-align: center;
+  }
+}
+@media (min-width: 1024px) {
+  .functioning__title {
+    text-align: center;
+  }
+}
 .functioning__list {
   display: flex;
   flex-direction: column;
@@ -153,6 +163,18 @@ body {
 .functioning__item__wrapper-icon i {
   font-size: 1.1rem;
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .functioning {
+    width: 30rem;
+    margin: auto;
+  }
+}
+@media (min-width: 1024px) {
+  .functioning {
+    width: 40rem;
+    margin: auto;
+  }
+}
 
 .restaurants {
   padding: 3.5rem 1.5rem;
@@ -160,6 +182,18 @@ body {
 }
 .restaurants__title {
   padding-bottom: 1.5rem;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .restaurants__title {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (min-width: 1024px) {
+  .restaurants__title {
+    width: 100%;
+    text-align: center;
+  }
 }
 .restaurants img {
   width: 100%;
@@ -193,6 +227,32 @@ body {
   font-weight: 200;
   padding-top: 0.3rem;
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .restaurants a {
+    /*si 50% se touche 49% pour faire un space between*/
+    /*padding non possible car ne centre pas*/
+    width: 49%;
+  }
+}
+@media (min-width: 1024px) {
+  .restaurants a {
+    width: 24%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .restaurants {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 1024px) {
+  .restaurants {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
 
 .footer {
   background-color: #353535;
@@ -220,6 +280,16 @@ body {
   font-size: 0.7rem;
   padding-right: 1rem;
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .footer {
+    text-align: center;
+  }
+}
+@media (min-width: 1024px) {
+  .footer {
+    text-align: center;
+  }
+}
 
 /* Components */
 .btn {
@@ -232,6 +302,7 @@ body {
   outline: none;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 8px;
   color: white;
+  /*modifier pour le boutonn rajout de padding plus grand*/
 }
 .btn--large {
   padding: 1rem 3rem;
