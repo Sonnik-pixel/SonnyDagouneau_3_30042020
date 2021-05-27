@@ -419,6 +419,10 @@ body {
   -webkit-background-clip: text;
 }
 
+.white--grey {
+  color: #f6f6f6;
+}
+
 .loader__section {
   width: 100vw;
   height: 100vh;
