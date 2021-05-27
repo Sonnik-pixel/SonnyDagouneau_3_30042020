@@ -505,6 +505,16 @@ body {
   font-size: 1.8rem;
   font-weight: 500;
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .menus__title {
+    text-align: center;
+  }
+}
+@media (min-width: 1024px) {
+  .menus__title {
+    text-align: center;
+  }
+}
 
 .icone-heart {
   position: relative;
@@ -524,6 +534,16 @@ body {
   height: 0.2rem;
   background-color: #99E2D0;
 }
+@media (min-width: 768px) and (max-width: 1023px) {
+  .enter__bar {
+    width: 100%;
+  }
+}
+@media (min-width: 1024px) {
+  .enter__bar {
+    width: 100%;
+  }
+}
 .enter__wrapper-p {
   width: 80%;
 }
@@ -540,6 +560,20 @@ body {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .enter {
+    width: 35rem;
+    text-align: center;
+    margin: auto;
+  }
+}
+@media (min-width: 1024px) {
+  .enter {
+    width: 45rem;
+    text-align: center;
+    margin: auto;
+  }
 }
 
 .enter__card {
