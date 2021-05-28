@@ -9,14 +9,14 @@
   box-shadow: rgb(0 0 0 / 30%) 0px 5px 8px;
   color: white;
 
-  /*modifier pour le boutonn rajout de padding plus grand*/
+  /*modifier pour le bouton rajoute du padding*/
   &--large {
     padding: 1rem 3rem;
   }
 
   &:hover {
     opacity: 0.8;
-    box-shadow: rgb(0 0 0 / 60%) 0px 5px 8px;
+    @include box-shadow-card-hover;
     transition-duration: 0.5s;
   }
 }

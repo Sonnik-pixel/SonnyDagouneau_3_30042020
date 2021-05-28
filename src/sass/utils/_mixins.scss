@@ -2,6 +2,10 @@
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px;
 }
 
+@mixin box-shadow-card-hover {
+  box-shadow: rgb(0 0 0 / 60%) 0px 5px 8px;
+}
+
 /*technique de Landon Schropp*/
 
 @mixin tablet {

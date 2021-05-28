@@ -6,50 +6,9 @@
   position: relative;
   @include box-shadow-card;
 
-  /*.icone-heart {
-      position: absolute;
-      right: 2rem;
-      bottom: 2.1rem;
-      font-size: 1.6rem;
-      /*coeur de base couleur noir dans html fas au lieu de far --> transparent*/
-  /*color: transparent;
-      /*je rajoute les bords*/
-  /*-webkit-text-stroke: 2px black;
-
-      &:hover {
-        /*background sur tout le fond*/
-  /*background: linear-gradient(0deg, $colour-secondary, $colour-primary);
-        /*background seulement dans le coeur*/
-  /*propriété de base et en plus celle avec le préfixe*/
-  /*background-clip: text;
-        -webkit-background-clip: text;
-        /*j'enlève la bordure noir du coeur*/
-  /*-webkit-text-stroke: transparent;
-      }
-    }*/
-
-  /*.white {
-    z-index: 1;
-    background-color: white;
-    position: absolute;
-    right: 2rem;
-    bottom: 2.1rem;
-    font-size: 1.6rem;
-    color: black;
-
-    &:hover {
-      opacity: 0;
-      transition-duration: 1s;
-    }
+  &:hover {
+    transform: scale(1.02);
+    @include box-shadow-card-hover;
+    transition-duration: 0.5s;
   }
-  .colored {
-    position: absolute;
-    right: 2rem;
-    bottom: 2.1rem;
-    font-size: 1.6rem;
-    color: transparent;
-    background: linear-gradient(0deg, $colour-secondary, $colour-primary);
-    background-clip: text;
-    -webkit-background-clip: text;
-  }*/
 }
