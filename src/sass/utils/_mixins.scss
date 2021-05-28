@@ -6,7 +6,7 @@
   box-shadow: rgb(0 0 0 / 60%) 0px 5px 8px;
 }
 
-/*technique de Landon Schropp*/
+/*Responsive, technique de Landon Schropp*/
 
 @mixin tablet {
   @media (min-width: 768px) and (max-width: 1023px) {
