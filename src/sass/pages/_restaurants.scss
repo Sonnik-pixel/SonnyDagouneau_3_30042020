@@ -107,13 +107,18 @@
     overflow: hidden;
     position: relative;
 
-    /*&--2 {
+    &--2 {
       animation-delay: 0.25s;
     }
 
     &--3 {
       animation-delay: 0.5s;
-    }*/
+    }
+
+    &--4 {
+      animation-delay: 0.7s;
+    }
+
     &:hover {
       .check {
         right: 0px;

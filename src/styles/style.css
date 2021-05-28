@@ -23,7 +23,7 @@ body {
   0% {
     transform: translateY(0);
   }
-  /*-0.5 elle descend*/
+  /*elle descend*/
   25% {
     transform: translateY(-1rem);
   }
@@ -45,6 +45,9 @@ body {
   }
   50% {
     opacity: 0.5;
+  }
+  75% {
+    opacity: 0.2;
   }
   100% {
     opacity: 0;
@@ -428,14 +431,12 @@ body {
   height: 100vh;
   background-color: white;
   z-index: 10;
-  /*position: absolute;*/
   position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
-  /*durée de l'animation des boules*/
-  animation: loader 1s;
   /*durée de l'animation de transparence*/
+  animation: loader 0.25s;
   /*durée de 0.75s*/
   animation-delay: 1.75s;
   /*pour ne pas faire réapparraître l'animation*/
@@ -450,6 +451,7 @@ body {
   height: 1.5rem;
   width: 1.5rem;
   border-radius: 1rem;
+  /*durée de l'animation des boules*/
   animation: jump ease-in-out 1s;
 }
 .loader__item--1 {
@@ -591,13 +593,15 @@ body {
   /*cache le dépassement de la boîte*/
   overflow: hidden;
   position: relative;
-  /*&--2 {
-    animation-delay: 0.25s;
-  }
-
-  &--3 {
-    animation-delay: 0.5s;
-  }*/
+}
+.enter__card__item--2 {
+  animation-delay: 0.25s;
+}
+.enter__card__item--3 {
+  animation-delay: 0.5s;
+}
+.enter__card__item--4 {
+  animation-delay: 0.7s;
 }
 .enter__card__item:hover .check {
   right: 0px;
