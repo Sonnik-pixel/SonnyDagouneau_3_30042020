@@ -22,6 +22,7 @@
   font-size: 1.6rem;
   color: transparent;
   background: linear-gradient(0deg, $colour-secondary, $colour-primary);
+  /*juste pour afficher l'arrière plan de couleur dans le coeur*/
   background-clip: text;
   -webkit-background-clip: text;
 }

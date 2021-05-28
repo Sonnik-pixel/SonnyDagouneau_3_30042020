@@ -379,6 +379,7 @@ body {
   font-size: 1.6rem;
   color: transparent;
   background: linear-gradient(0deg, #FF79DA, #9356DC);
+  /*juste pour afficher l'arrière plan de couleur dans le coeur*/
   background-clip: text;
   -webkit-background-clip: text;
 }
