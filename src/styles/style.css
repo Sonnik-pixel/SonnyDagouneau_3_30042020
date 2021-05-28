@@ -589,10 +589,11 @@ body {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 8px;
   display: flex;
   margin-bottom: 1rem;
-  animation: dishes 1.5s;
+  animation: dishes 1.5s forwards;
   /*cache le dépassement de la boîte*/
   overflow: hidden;
   position: relative;
+  opacity: 0;
 }
 .enter__card__item--2 {
   animation-delay: 0.25s;

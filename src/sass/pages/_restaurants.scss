@@ -102,10 +102,11 @@
     @include box-shadow-card;
     display: flex;
     margin-bottom: 1rem;
-    animation: dishes 1.5s;
+    animation: dishes 1.5s forwards;
     /*cache le dépassement de la boîte*/
     overflow: hidden;
     position: relative;
+    opacity: 0;
 
     &--2 {
       animation-delay: 0.25s;
