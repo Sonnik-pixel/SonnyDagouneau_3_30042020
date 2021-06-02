@@ -1,7 +1,6 @@
 /* Utils */
 
 @import "./utils/variables";
-@import "./utils/functions";
 @import "./utils/mixins";
 
 /* Base */
@@ -28,5 +27,4 @@
 /* Pages */
 
 @import "./pages/home";
-@import "./pages/contact";
 @import "./pages/restaurants";
