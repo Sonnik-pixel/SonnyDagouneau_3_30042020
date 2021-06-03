@@ -42,6 +42,14 @@
     text-transform: uppercase;
     padding-top: 2.5rem;
     padding-bottom: 0.5rem;
+
+    @include tablet {
+      text-align: center;
+    }
+
+    @include desktop {
+      text-align: center;
+    }
   }
 
   &__bar {
@@ -80,13 +88,11 @@
 
   @include tablet {
     width: 35rem;
-    text-align: center;
     margin: auto;
   }
 
   @include desktop {
     width: 45rem;
-    text-align: center;
     margin: auto;
   }
 }
