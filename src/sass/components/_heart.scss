@@ -6,7 +6,7 @@
   bottom: 2.1rem;
   font-size: 1.6rem;
   color: white;
-  background-clip: text;
+  /*background-clip: text;*/
   -webkit-background-clip: text;
   -webkit-text-stroke: 2px black;
 
@@ -23,7 +23,7 @@
   color: transparent;
   background: linear-gradient(0deg, $colour-secondary, $colour-primary);
   /*juste pour afficher l'arrière plan de couleur dans le coeur*/
-  background-clip: text;
+  /*background-clip: text;*/
   -webkit-background-clip: text;
 }
 

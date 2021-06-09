@@ -363,7 +363,7 @@ body {
   bottom: 2.1rem;
   font-size: 1.6rem;
   color: white;
-  background-clip: text;
+  /*background-clip: text;*/
   -webkit-background-clip: text;
   -webkit-text-stroke: 2px black;
 }
@@ -380,7 +380,7 @@ body {
   color: transparent;
   background: linear-gradient(0deg, #FF79DA, #9356DC);
   /*juste pour afficher l'arrière plan de couleur dans le coeur*/
-  background-clip: text;
+  /*background-clip: text;*/
   -webkit-background-clip: text;
 }
 
