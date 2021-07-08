@@ -1,5 +1,3 @@
-# SonnyDagouneau_3_30042020
-
 # OpenClassroom P3 : Dynamisez une page web avec des animations CSS
 [![Accueil.png](https://i.postimg.cc/Cx5892QZ/Accueil.png)](https://postimg.cc/cvq6nFZZ)
  * [Mon GitHub Pages](https://sonnik-pixel.github.io/SonnyDagouneau_3_30042020/)
